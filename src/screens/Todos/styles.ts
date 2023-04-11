@@ -1,0 +1,56 @@
+import {StyleSheet} from 'react-native';
+export default StyleSheet.create({
+  container: {
+    paddingVertical: 20,
+    justifyContent: 'center',
+  },
+  taskRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 10,
+    borderBottomColor: 'black',
+    margin: 5,
+    borderRadius: 10,
+    borderBottomWidth: 1,
+  },
+  serialNumber: {
+    flex: 1,
+    fontWeight: 'bold',
+    fontSize: 25,
+    lineHeight: 30,
+  },
+  taskData: {
+    flex: 4,
+    fontWeight: 'normal',
+    fontSize: 30,
+    lineHeight: 30,
+    marginLeft: 15,
+  },
+  taskStatus: {
+    flex: 2,
+    fontWeight: 'bold',
+    fontSize: 20,
+    lineHeight: 30,
+  },
+  btn: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+    borderRadius: 4,
+    elevation: 3,
+    backgroundColor: 'black',
+    position: 'absolute',
+    bottom: 5,
+    right: 0,
+    left: 0,
+  },
+  btnText: {
+    fontSize: 16,
+    lineHeight: 30,
+    fontWeight: 'bold',
+    letterSpacing: 0.25,
+    color: 'white',
+  },
+});
